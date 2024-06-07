@@ -24,3 +24,25 @@
     background-color: whitesmoke;
     color: black;
 }
+
+.bee-at-comb{
+    height: 40dvh;
+    aspect-ratio: 1:1;
+}
+
+.review-cards{
+    background-color: yellow;
+    color: black;
+    height: 12em;
+    width: 18em;
+    margin: 1em;
+
+}
+.review-card-center{
+    background-color: yellow;
+    color: black;
+    height: 15em;
+    width: 18em;
+    margin: 1em;
+
+}
