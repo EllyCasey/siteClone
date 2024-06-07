@@ -1,0 +1,26 @@
+.top-bg-img {
+    background-image: url(https://images.unsplash.com/photo-1576347819574-903b60efcd69?q=80&w=1333&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    min-height: 60dvh;
+    background-size: cover;
+}
+
+.form-card {
+    background-color: whitesmoke;
+    color: black;
+    height: 30em;
+    width: 20em;
+    margin-left: 3em;
+    margin-top: 3em;
+    border-radius: 1em;
+    box-shadow: 0px 5px 5px #000000be;
+}
+
+.small-text{
+    font-size: .90em;
+}
+
+.mid-page-card{
+    position: absolute;
+    background-color: whitesmoke;
+    color: black;
+}
