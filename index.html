@@ -9,19 +9,28 @@
     <script id="debug-script" src="https://cdn.jsdelivr.net/gh/MickShannahan/style-debug@latest/debug.min.js" defer></script>
     <!--MDI-->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@mdi/font@latest/css/materialdesignicons.min.css">
+    <!--google font-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poetsen+One&display=swap" rel="stylesheet">
     <!--css-->
     <link rel="stylesheet" href="style.css">
     <title>Clone Site</title>
 </head>
 
 <body class="debug">
+
+<!--second stage done-->
     <header class="sticky-top">
-        <div class="container-fluid bg-warning">
+        <div class="container-fluid bee-yellow">
             <div class="row">
-                <div class="col-4 p-2">
-                    <h2>
-                    <i class="mdi mdi-bee mdi-spin"></i>
-                    Lorem Ipsum</h2>
+                <div class="col-12 p-2">
+                    <h2 class="fw-bold fs-2">
+                    <i class="mdi mdi-bee mdi-spin icon-bigger"></i>
+                    Bee a Hero</h2>
                 </div>
             </div>
         </div>
@@ -32,23 +41,49 @@
         <section class="container-fluid">
             <div class="row top-bg-img">
                 <div class="col-4 form-card">
+                    <form>
+                        <div class="container">
+                            <p class="fw-bold fs-3">Sign Up for Our Newsletter</p>
+
+                            <label for="name"></label>
+                            <input type="text" placeholder="NAME" name="name" required>
+                            
+                            <label for="email"></label>
+                            <input type="email" placeholder="EMAIL" name="email" required>
+
+                            <label for="phone"></label>
+                            <input class="half-input" type="tel" placeholder="PHONE" name="phone">
+
+                            <label for="ext"></label>
+                            <input class="quarter-input" type="number" placeholder="EXT" name="ext">
+
+                            <label for="message"></label>
+                            <textarea rows="5" cols="30" id="message" name="user_message" placeholder="MESSAGE"></textarea>
+
+                        </div>
+                    </form>
+
+                <!--<div class="col-4 form-card">
                     <h5>Less Subtle Heading</h5>
                     <form>
-                        <label for="fname">Name</label>
+                        <label for="name">Name:</label>
+                        <input type="text">
                         <br>
-                        <label for="fname">Email</label>
+                        <label for="mail">Email:</label>
+                        <input type="email">
                         <br>
-                        <label for="fname">Phone/EXT.</label>
+                        <label for="msg">Message:</label>
+                        <textarea id="msg"></textarea>
                         <br>
-                        <label for="fname">Message</label>
-                        <br>
+
+
                         <input id="agree" type="checkbox">
                         <label for="agreement"><p class="small-text">by checking this box I agree to the terms</p></label>
                         <button>SUBMIT</button>
-                    </form>
+                    </form>-->
                 </div>
-                <div class="col-5 d-flex">
-                    <h3>TEXT OVER AN IMAGE<br><span>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptas consequatur</span></h3>
+                <div class="col-5 d-flex justify-content-center align-items-center ">
+                    <h1 class="poetsen honey-bees p-2">HONEY BEES<br><span>"The hum of bees is the voice of the garden" ~Elizabeth Lawrence</span></h1>
                     
                 </div>
             </div>
@@ -56,18 +91,18 @@
 
 <!--Fast facts section w/floating section-->
         <section class="container-fluid">
-            <div class="row bg-warning p-4">
+            <div class="row bee-yellow p-4">
 <!-- currently can not see first col due to second's positioning-->
                 <div class="col-5">
                     <h3>Lorem ipsum dolor sit amet consectetur adipisicing</h3>
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloremque quibusdam expedita qui voluptatibus, accusantium esse dolorem impedit ea nemo omnis! </p>
                 </div>
                 <div class="col-7 position-relative p-4 mid-page-card">
-                    <p><i class="mdi mdi-sprout p-3"></i>Honey bees are crucial pollinators for plants</p>
-                    <p><i class="mdi mdi-sleep p-3"></i>Honey bees never sleep</p>
-                    <p><i class="mdi mdi-flower p-3"></i>Honey's flavor comes from the local flora</p>
-                    <p><i class="mdi mdi-human-female-dance p-3"></i>Honey bees dance to communicate!</p>
-                    <p><i class="mdi mdi-bottle-tonic-plus p-3"></i> not only tastes good, but it contains health benefits,too!</p>
+                    <p><i class="mdi mdi-sprout p-3 icon-bigger"></i>Honey bees are crucial pollinators for plants</p>
+                    <p><i class="mdi mdi-sleep p-3 icon-bigger"></i>Honey bees never sleep</p>
+                    <p><i class="mdi mdi-flower p-3 icon-bigger"></i>Honey's flavor comes from the local flora</p>
+                    <p><i class="mdi mdi-human-female-dance p-3 icon-bigger"></i>Honey bees dance to communicate!</p>
+                    <p><i class="mdi mdi-bottle-tonic-plus p-3 icon-bigger"></i> not only tastes good, but it contains health benefits,too!</p>
                 </div>
             </div>
 
