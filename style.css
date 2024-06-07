@@ -36,13 +36,18 @@
     height: 12em;
     width: 18em;
     margin: 1em;
-
 }
+
 .review-card-center{
     background-color: yellow;
     color: black;
     height: 15em;
     width: 18em;
     margin: 1em;
+}
 
+.bottom-bg-img {
+    background-image: url(beeboy.jpg) ;
+    min-height: 20dvh;
+    background-size: cover;
 }
