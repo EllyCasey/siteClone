@@ -82,7 +82,8 @@ input{
 
 .bee-at-comb{
     height: 40dvh;
-    aspect-ratio: 1:1;
+    aspect-ratio: 1;
+    display: flex;
 }
 
 .review-cards{
@@ -105,4 +106,11 @@ input{
     background-image: url(beeboy.jpg) ;
     min-height: 20dvh;
     background-size: cover;
+}
+
+.button-format{
+    background-color: var(--bee-yellow);
+    text-align: center;
+    font-family: poetsan;
+
 }
